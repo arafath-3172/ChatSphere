@@ -26,7 +26,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? undefined
+        ? "https://chatsphere-ten.vercel.app/"
         : "http://localhost:5173",
   })
 );
@@ -66,7 +66,7 @@ const io = new Server(httpServer, {
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? undefined
+        ? "https://chatsphere-ten.vercel.app/"
         : "http://localhost:5173",
   },
 });

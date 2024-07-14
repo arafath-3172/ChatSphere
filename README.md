@@ -95,7 +95,7 @@ To get started with ChatSphere, follow these steps:
 
 ## Setting Up .env in Backend 🔧
 
-To set up the environment variables for the backend, create a `.env` file inside the `backend/utils` directory with the following contents:
+To set up the environment variables for the backend, create a `.env` file with the following contents:
 
 ```bash
 
